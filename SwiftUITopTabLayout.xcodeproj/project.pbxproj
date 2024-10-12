@@ -14,6 +14,11 @@
 		1DC972692CB9869C000158BC /* SwiftUITopTabLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC972682CB9869C000158BC /* SwiftUITopTabLayoutTests.swift */; };
 		1DC972732CB9869C000158BC /* SwiftUITopTabLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC972722CB9869C000158BC /* SwiftUITopTabLayoutUITests.swift */; };
 		1DC972752CB9869C000158BC /* SwiftUITopTabLayoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC972742CB9869C000158BC /* SwiftUITopTabLayoutUITestsLaunchTests.swift */; };
+		1DC972822CB986C0000158BC /* TopMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC972812CB986C0000158BC /* TopMenuBar.swift */; };
+		1DC972842CB9A41B000158BC /* TrendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC972832CB9A41B000158BC /* TrendingView.swift */; };
+		1DC972872CB9A443000158BC /* GenresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC972862CB9A443000158BC /* GenresView.swift */; };
+		1DC972892CB9A455000158BC /* ArtistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC972882CB9A455000158BC /* ArtistsView.swift */; };
+		1DC9728B2CB9A46A000158BC /* AlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9728A2CB9A46A000158BC /* AlbumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		1DC9726E2CB9869C000158BC /* SwiftUITopTabLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITopTabLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC972722CB9869C000158BC /* SwiftUITopTabLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITopTabLayoutUITests.swift; sourceTree = "<group>"; };
 		1DC972742CB9869C000158BC /* SwiftUITopTabLayoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITopTabLayoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DC972812CB986C0000158BC /* TopMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuBar.swift; sourceTree = "<group>"; };
+		1DC972832CB9A41B000158BC /* TrendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingView.swift; sourceTree = "<group>"; };
+		1DC972862CB9A443000158BC /* GenresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresView.swift; sourceTree = "<group>"; };
+		1DC972882CB9A455000158BC /* ArtistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsView.swift; sourceTree = "<group>"; };
+		1DC9728A2CB9A46A000158BC /* AlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,8 @@
 		1DC972562CB9869B000158BC /* SwiftUITopTabLayout */ = {
 			isa = PBXGroup;
 			children = (
+				1DC972852CB9A424000158BC /* Views */,
+				1DC972812CB986C0000158BC /* TopMenuBar.swift */,
 				1DC972572CB9869B000158BC /* SwiftUITopTabLayoutApp.swift */,
 				1DC972592CB9869B000158BC /* ContentView.swift */,
 				1DC9725B2CB9869C000158BC /* Assets.xcassets */,
@@ -125,6 +137,17 @@
 				1DC972742CB9869C000158BC /* SwiftUITopTabLayoutUITestsLaunchTests.swift */,
 			);
 			path = SwiftUITopTabLayoutUITests;
+			sourceTree = "<group>";
+		};
+		1DC972852CB9A424000158BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DC972832CB9A41B000158BC /* TrendingView.swift */,
+				1DC972862CB9A443000158BC /* GenresView.swift */,
+				1DC972882CB9A455000158BC /* ArtistsView.swift */,
+				1DC9728A2CB9A46A000158BC /* AlbumsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC972822CB986C0000158BC /* TopMenuBar.swift in Sources */,
 				1DC9725A2CB9869B000158BC /* ContentView.swift in Sources */,
 				1DC972582CB9869B000158BC /* SwiftUITopTabLayoutApp.swift in Sources */,
+				1DC972892CB9A455000158BC /* ArtistsView.swift in Sources */,
+				1DC9728B2CB9A46A000158BC /* AlbumsView.swift in Sources */,
+				1DC972842CB9A41B000158BC /* TrendingView.swift in Sources */,
+				1DC972872CB9A443000158BC /* GenresView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
